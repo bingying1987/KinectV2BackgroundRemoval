@@ -1,0 +1,202 @@
+//------------------------------------------------------------------------------
+// <copyright file="CoordinateMappingBasics.rc" company="Microsoft">
+//     Copyright (c) Microsoft Corporation.  All rights reserved.
+// </copyright>
+//------------------------------------------------------------------------------
+
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon  
+// remains consistent on all systems.
+IDI_APP                 ICON                    "app.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+BACKGROUND1				IMAGE					"Images\\BG1.png"
+BACKGROUND2				IMAGE					"Images\\BG2.png"
+BACKGROUND3				IMAGE					"Images\\BG3.png"
+BACKGROUND4				IMAGE					"Images\\BG4.png"
+BACKGROUND5				IMAGE					"Images\\BG5.png"
+BACKGROUND6				IMAGE					"Images\\BG6.png"
+BACKGROUND7				IMAGE					"Images\\BG7.png"
+BACKGROUND8				IMAGE					"Images\\BG8.png"
+BACKGROUND9				IMAGE					"Images\\BG9.png"
+BACKGROUND10            IMAGE                   "Images\\BG10.png"
+BACKGROUND11			IMAGE					"Images\\BG11.png"
+BACKGROUND12			IMAGE					"Images\\BG12.png"
+BACKGROUND13			IMAGE					"Images\\BG13.png"
+BACKGROUND14			IMAGE					"Images\\BG14.png"
+BACKGROUND15			IMAGE					"Images\\BG15.png"
+BACKGROUND16			IMAGE					"Images\\BG16.png"
+BACKGROUND17			IMAGE					"Images\\BG17.png"
+BACKGROUND18			IMAGE					"Images\\BG18.png"
+BACKGROUND19			IMAGE					"Images\\BG19.png"
+BACKGROUND20            IMAGE                   "Images\\BG20.png"
+BACKGROUND21			IMAGE					"Images\\BG21.png"
+BACKGROUND22			IMAGE					"Images\\BG22.png"
+BACKGROUND23			IMAGE					"Images\\BG23.png"
+BACKGROUND24			IMAGE					"Images\\BG24.png"
+BACKGROUND25			IMAGE					"Images\\BG25.png"
+BACKGROUND26			IMAGE					"Images\\BG26.png"
+BACKGROUND27			IMAGE					"Images\\BG27.png"
+BACKGROUND28			IMAGE					"Images\\BG28.png"
+BACKGROUND29			IMAGE					"Images\\BG29.png"
+BACKGROUND30            IMAGE                   "Images\\BG30.png"
+BACKGROUND31			IMAGE					"Images\\BG31.png"
+BACKGROUND32			IMAGE					"Images\\BG32.png"
+BACKGROUND33			IMAGE					"Images\\BG33.png"
+BACKGROUND34			IMAGE					"Images\\BG34.png"
+BACKGROUND35			IMAGE					"Images\\BG35.png"
+BACKGROUND36			IMAGE					"Images\\BG36.png"
+BACKGROUND37			IMAGE					"Images\\BG37.png"
+BACKGROUND38			IMAGE					"Images\\BG38.png"
+BACKGROUND39			IMAGE					"Images\\BG39.png"
+BACKGROUND40            IMAGE                   "Images\\BG40.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_APP DIALOGEX 0, 0, 0, 0
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Coordinate Mapping Basics"
+CLASS "CoordinateMappingBasicsAppDlgWndClass"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_VIDEOVIEW,"Static",SS_BLACKFRAME,100,0,1104,621
+    LTEXT           "",IDC_STATUS,0,630,440,11,SS_SUNKEN,0
+	DEFPUSHBUTTON   L"±£´æÍ¼Æ¬", IDC_BUTTON_SCREENSHOT, 450, 627, 90, 12
+	DEFPUSHBUTTON   L"×Ô¶¯ÂÖ²¥", IDC_BUTTON_AUTO, 550, 627, 50, 12
+	DEFPUSHBUTTON   L"»»±³¾°", IDC_BUTTON_BACKGROUND, 600, 627, 50, 12
+	DEFPUSHBUTTON   L"±³¾°1", IDC_BUTTON_BG1, 650, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°2", IDC_BUTTON_BG2, 680, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°3", IDC_BUTTON_BG3, 710, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°4", IDC_BUTTON_BG4, 740, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°5", IDC_BUTTON_BG5, 770, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°6", IDC_BUTTON_BG6, 800, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°7", IDC_BUTTON_BG7, 830, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°8", IDC_BUTTON_BG8, 860, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°9", IDC_BUTTON_BG9, 890, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°10", IDC_BUTTON_BG10, 920, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°11", IDC_BUTTON_BG11, 950, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°12", IDC_BUTTON_BG12, 980, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°13", IDC_BUTTON_BG13, 1010, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°14", IDC_BUTTON_BG14, 1040, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°15", IDC_BUTTON_BG15, 1070, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°16", IDC_BUTTON_BG16, 1100, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°17", IDC_BUTTON_BG17, 1130, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°18", IDC_BUTTON_BG18, 1160, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°19", IDC_BUTTON_BG19, 1190, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°20", IDC_BUTTON_BG20, 1220, 621, 30, 12
+	DEFPUSHBUTTON   L"±³¾°21", IDC_BUTTON_BG21, 650, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°22", IDC_BUTTON_BG22, 680, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°23", IDC_BUTTON_BG23, 710, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°24", IDC_BUTTON_BG24, 740, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°25", IDC_BUTTON_BG25, 770, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°26", IDC_BUTTON_BG26, 800, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°27", IDC_BUTTON_BG27, 830, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°28", IDC_BUTTON_BG28, 860, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°29", IDC_BUTTON_BG29, 890, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°30", IDC_BUTTON_BG30, 920, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°31", IDC_BUTTON_BG31, 950, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°32", IDC_BUTTON_BG32, 980, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°33", IDC_BUTTON_BG33, 1010, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°34", IDC_BUTTON_BG34, 1040, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°35", IDC_BUTTON_BG35, 1070, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°36", IDC_BUTTON_BG36, 1100, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°37", IDC_BUTTON_BG37, 1130, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°38", IDC_BUTTON_BG38, 1160, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°39", IDC_BUTTON_BG39, 1190, 633, 30, 12
+	DEFPUSHBUTTON   L"±³¾°40", IDC_BUTTON_BG40, 1220, 633, 30, 12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_APP, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 505
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
